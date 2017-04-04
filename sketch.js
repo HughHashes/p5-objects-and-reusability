@@ -2,7 +2,7 @@ var allMyBubbles = [];
 var numofBudis = 100;
 var sizeOfBudi = 50;
 
-var promp = prompt("What do you want more, Butty, Money, or Fame?");
+var promp = prompt("What do you want more, Budi, Money, or Fame?");
 var lower = promp.toLowerCase();
 
 var budi;
@@ -40,7 +40,7 @@ function Bubble(x,y){
     this.y = y;
     
     
-    if(lower == "butty"){
+    if(lower == "budi"){
         img = budi;
     }
     if(lower == "money"){
